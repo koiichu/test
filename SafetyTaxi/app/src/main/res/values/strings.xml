@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SafetyTaxi</string>
+    <string name="action_settings">การตั้งค่า</string>
+    <string name="action_history">ประวัติการใช้งาน</string>
+    <string name="action_user">USERNAME</string>
+    <string name="action_logout">ออกจากระบบ</string>
+    <string name="title_activity_timeline_report">timeline_report</string>
+
+</resources>

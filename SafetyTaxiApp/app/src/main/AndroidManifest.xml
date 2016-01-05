@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="safetytaxi.safetytaxiapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity android:name=".Main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login"
+            android:theme="@style/NoActionbar">
+
+        </activity>
+        <activity android:name=".Signup"
+            android:theme="@style/AppTheme"
+            android:label="ลงทะเบียน">
+        </activity>
+        <activity android:name=".Forgetpwd"
+            android:theme="@style/AppTheme"
+            android:label="Reset Password">
+        </activity>
+        <activity android:name=".Home"
+            android:theme="@style/AppTheme"
+            android:label="SAFETY TAXI">
+        </activity>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="AMwEM0I7WJxoPCzZPvS22zYGvWRahHKvsspAjU9D" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="5KRcNT9wJV4fvk0F0rR8OU0xhCCs7S9Tow1NNKYV" />
+
+        <activity android:name=".Toolbar" >
+        </activity>
+    </application>
+
+</manifest>

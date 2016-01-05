@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.AppBarOverlay"
+    tools:context="safetytaxi_1.safetytaxi.Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="ชื่อผู้ใช้งาน"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/textcolorhint"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:ems="10"
+            android:hint="รหัสผ่าน (8 ตัวขึ้นไป)"
+            android:inputType="textPassword"
+            android:textColorHint="@color/textcolorhint"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:id="@+id/con_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="ยืนยันรหัสผ่าน"
+            android:inputType="textPassword"
+            android:textColorHint="@color/textcolorhint"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/textcolorhint"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:id="@+id/tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="@color/textcolorhint"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_Regis"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_margin="15dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/sign_up"
+            android:onClick="clickSignUp"
+            android:shadowColor="#281808"
+            android:textColor="#006c65" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#00d4c8"
+        android:src="@drawable/bg_login" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:ems="13"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:ems="13"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:onClick="clickLogin"
+            android:shadowColor="#000000"
+            android:background="@drawable/login_but"
+            android:textColor="#006c65"
+            android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="420dp">
+
+        <Button
+            android:id="@+id/bt_regis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:onClick="clickRegis"
+            android:shadowColor="#000000"
+            android:background="@drawable/signup_but"
+            android:textColor="#006c65"
+            android:layout_marginLeft="55dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

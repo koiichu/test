@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test_ui.test_ui.regiister"
+    android:theme="@style/Actionbar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Name"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Password"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Confiem Password"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="E-Mail"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:hint="Phone Number"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:onClick="clickSignUp"
+            android:shadowColor="#000000"
+            android:background="@drawable/sign_up"
+            android:textColor="#006c65"
+            android:layout_marginTop="50dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

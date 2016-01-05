@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="safetytaxi.safetytaxiapp.Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp"
+            android:id="@+id/name" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp"
+            android:id="@+id/password" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp"
+            android:id="@+id/con_pass" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp"
+            android:id="@+id/email" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#b7b7b7"
+            android:textSize="25sp"
+            android:id="@+id/tel" />
+
+        <Button
+            android:id="@+id/bt_Regis"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/sign_up"
+            android:onClick="clickSignUp"
+            android:shadowColor="#000000"
+            android:textColor="#006c65" />
+
+    </LinearLayout>
+
+</RelativeLayout>
